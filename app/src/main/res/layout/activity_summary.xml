@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/summary_background"
+    tools:context="edu.orangecoastcollege.cs273.phuynh101.inandout.SummaryActivity">
+
+    <TextView
+        android:id="@+id/totalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="144dp"
+        android:text="TextView"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/itemsOrderedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/totalTextView"
+        android:layout_alignStart="@+id/totalTextView"
+        android:layout_below="@+id/totalTextView"
+        android:layout_marginTop="42dp"
+        android:text="TextView"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/subtotalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/totalTextView"
+        android:layout_alignStart="@+id/totalTextView"
+        android:layout_below="@+id/itemsOrderedTextView"
+        android:layout_marginTop="18dp"
+        android:text="TextView"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/taxTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/subtotalTextView"
+        android:layout_alignStart="@+id/subtotalTextView"
+        android:layout_below="@+id/subtotalTextView"
+        android:layout_marginTop="23dp"
+        android:text="TextView"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/totalTextView"
+        android:layout_alignStart="@+id/totalTextView"
+        android:layout_below="@+id/taxTextView"
+        android:layout_marginTop="39dp"
+        android:onClick="startNewOrder"
+        android:text="@string/new_order_summary"/>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">In And Out</string>
+    <string name="cheeseburger">Cheese burger $2.15</string>
+    <string name="double_double">Burger 2x2 $3.60</string>
+    <string name="fountain_drinks">Nước uống (chọn size)</string>
+    <string name="frenchfries">Khoai tây chiên $1.65</string>
+    <string name="items_ordered_summary">"Tổng số món đã gọi: "</string>
+    <string name="large">Ly lớn $1.75</string>
+    <string name="medium">Ly vừa $1.55</string>
+    <string name="new_order_summary">Order mới</string>
+    <string name="order_total_summary">"Tổng thành tiền: "</string>
+    <string name="place_an_order">Đặt Món</string>
+    <string name="place_order_button">Gọi Món</string>
+    <string name="shakes">Sửa lắc $2.20</string>
+    <string name="small">Ly vừa $1.45</string>
+    <string name="subtotal_summary">"Tổng trước thuế: "</string>
+    <string name="tax_summary">Thuế</string>
+</resources>
